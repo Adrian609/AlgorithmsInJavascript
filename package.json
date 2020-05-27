@@ -1,16 +1,21 @@
 {
   "name": "algorithmsinjavascript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Algorithms study",
+  "main": "algorithms/bubble-sort.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "prettier --write *.js *.md"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Adrian609/AlgorithmsInJavascript.git"
   },
-  "author": "",
+  "author": "Adrian Rodriguez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Adrian609/AlgorithmsInJavascript/issues"

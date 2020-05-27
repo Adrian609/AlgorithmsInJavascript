@@ -16,6 +16,6 @@ function bubbleSort(data) {
   return data;
 }
 
-export default {
+module.exports = {
   bubbleSort,
 };
